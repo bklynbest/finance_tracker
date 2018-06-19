@@ -17,6 +17,7 @@
  /*
  *= require font-awesome
  */
+ body {}
 .results-block {
   display: inline-block;
 }
@@ -45,4 +46,18 @@
   .btn-danger:hover {
     background-color: darken(#d9534f, 20%) !important;
   }
+}
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('dollar.jpg') no-repeat;
+  background-size: cover;
 }
